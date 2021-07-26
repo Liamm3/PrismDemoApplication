@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismDemoApplication", "PrismDemoApplication\PrismDemoApplication.csproj", "{C1250984-15C8-43CF-AAB5-3D2BC4816F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApplicationDemo.TodoModule", "PrismApplicationDemo.TodoModule\PrismApplicationDemo.TodoModule.csproj", "{6C7BD602-DA98-467B-BE0D-9FEAC0996252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApplicationDemo.NoteModule", "PrismApplicationDemo.NoteModule\PrismApplicationDemo.NoteModule.csproj", "{3136E559-53CD-480E-A6F5-C43C46488689}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1250984-15C8-43CF-AAB5-3D2BC4816F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1250984-15C8-43CF-AAB5-3D2BC4816F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1250984-15C8-43CF-AAB5-3D2BC4816F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1250984-15C8-43CF-AAB5-3D2BC4816F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C7BD602-DA98-467B-BE0D-9FEAC0996252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7BD602-DA98-467B-BE0D-9FEAC0996252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7BD602-DA98-467B-BE0D-9FEAC0996252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7BD602-DA98-467B-BE0D-9FEAC0996252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3136E559-53CD-480E-A6F5-C43C46488689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3136E559-53CD-480E-A6F5-C43C46488689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3136E559-53CD-480E-A6F5-C43C46488689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3136E559-53CD-480E-A6F5-C43C46488689}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
