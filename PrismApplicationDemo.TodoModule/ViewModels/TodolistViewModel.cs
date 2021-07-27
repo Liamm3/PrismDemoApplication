@@ -3,8 +3,8 @@ using Prism.Commands;
 using Prism.Mvvm;
 
 namespace PrismApplicationDemo.TodoModule.ViewModels {
-    public class TodolistViewModel : BindableBase {
-        public List<Todo> Todolist { get; } = new() {
+    public class TodoListViewModel : BindableBase {
+        public List<Todo> TodoList { get; } = new() {
             new Todo() {Text = "Prism wiederholen"},
             new Todo() {Text = "Videothek mit Prism und EFCore"},
             new Todo() {Text = "IDisposable wiederholen"},
@@ -15,8 +15,8 @@ namespace PrismApplicationDemo.TodoModule.ViewModels {
 
         public DelegateCommand<Todo> SelectTodoCommand { get; private set; }
 
-        public TodolistViewModel() {
-            SelectedTodo = Todolist[0];
+        public TodoListViewModel() {
+            SelectedTodo = TodoList[0];
             SelectTodoCommand = new DelegateCommand<Todo>(SelectTodo);
         }
 

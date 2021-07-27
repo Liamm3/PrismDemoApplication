@@ -1,6 +1,6 @@
 ﻿namespace PrismApplicationDemo.TodoModule.Views {
-    public partial class TodolistView {
-        public TodolistView() {
+    public partial class TodoListView {
+        public TodoListView() {
             InitializeComponent();
         }
     }
