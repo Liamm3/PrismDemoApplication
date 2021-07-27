@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApplicationDemo.TodoMo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApplicationDemo.NoteModule", "PrismApplicationDemo.NoteModule\PrismApplicationDemo.NoteModule.csproj", "{3136E559-53CD-480E-A6F5-C43C46488689}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApplicationDemo.Shared", "PrismApplicationDemo.Shared\PrismApplicationDemo.Shared.csproj", "{CBF1BB0E-B64B-4F9C-BDE2-A71C74765BA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{3136E559-53CD-480E-A6F5-C43C46488689}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3136E559-53CD-480E-A6F5-C43C46488689}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3136E559-53CD-480E-A6F5-C43C46488689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF1BB0E-B64B-4F9C-BDE2-A71C74765BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF1BB0E-B64B-4F9C-BDE2-A71C74765BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF1BB0E-B64B-4F9C-BDE2-A71C74765BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF1BB0E-B64B-4F9C-BDE2-A71C74765BA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

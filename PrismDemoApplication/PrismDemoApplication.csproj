@@ -12,6 +12,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\PrismApplicationDemo.NoteModule\PrismApplicationDemo.NoteModule.csproj" />
+      <ProjectReference Include="..\PrismApplicationDemo.Shared\PrismApplicationDemo.Shared.csproj" />
       <ProjectReference Include="..\PrismApplicationDemo.TodoModule\PrismApplicationDemo.TodoModule.csproj" />
     </ItemGroup>
 

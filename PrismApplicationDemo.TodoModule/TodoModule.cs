@@ -1,6 +1,7 @@
 ﻿using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
+using PrismApplicationDemo.Shared;
 using PrismApplicationDemo.TodoModule.Views;
 
 namespace PrismApplicationDemo.TodoModule {
@@ -15,7 +16,9 @@ namespace PrismApplicationDemo.TodoModule {
         }
 
         public void OnInitialized(IContainerProvider containerProvider) {
-            _regionManager.RegisterViewWithRegion<TodoListView>("ContentRegion");
+            _regionManager.RegisterViewWithRegion<TodoMainView>(RegionNames.Content);
+            _regionManager.RegisterViewWithRegion<TodoListView>(RegionNames.TodoList);
+            _regionManager.RegisterViewWithRegion<TodoDetailsView>(RegionNames.TodoDetail);
         }
     }
 }

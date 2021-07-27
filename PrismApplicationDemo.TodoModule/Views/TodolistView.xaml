@@ -9,12 +9,7 @@
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-        <ListBox Name="TodoListBox" SelectionMode="Single" ItemsSource="{Binding TodoList}"
-                 SelectedItem="{Binding SelectedTodo}">
+        <ListBox Name="TodoListBox" SelectionMode="Single" ItemsSource="{Binding TodoList}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <TextBlock x:Name="TodoText" Text="{Binding Text}" />
@@ -25,18 +20,12 @@
                     </DataTemplate.Triggers>
                 </DataTemplate>
             </ListBox.ItemTemplate>
-            <i:Interaction.Triggers>
-                <i:EventTrigger EventName="SelectionChanged">
-                    <i:InvokeCommandAction Command="{Binding SelectTodoCommand}"
-                                           CommandParameter="{Binding ElementName=TodoListBox, Path=SelectedItem}" />
-                </i:EventTrigger>
-            </i:Interaction.Triggers>
+            <!--     <i:Interaction.Triggers> -->
+            <!--         <i:EventTrigger EventName="SelectionChanged"> -->
+            <!--             <i:InvokeCommandAction Command="{Binding SelectTodoCommand}" -->
+            <!--                                    CommandParameter="{Binding ElementName=TodoListBox, Path=SelectedItem}" /> -->
+            <!--         </i:EventTrigger> -->
+            <!--     </i:Interaction.Triggers> -->
         </ListBox>
-        <StackPanel Grid.Column="1">
-            <TextBox Text="{Binding SelectedTodo.Text}" HorizontalAlignment="Center"
-                     VerticalAlignment="Center" />
-            <CheckBox Content="Completed" IsChecked="{Binding Completed}" />
-            <Button Content="Save todo" />
-        </StackPanel>
     </Grid>
 </UserControl>
